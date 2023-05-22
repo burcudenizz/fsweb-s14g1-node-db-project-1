@@ -1,5 +1,5 @@
 {
-  "name": "node-db-project-1",
+  "name": "db-project-1",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
     "resetdb": "knex migrate:rollback && knex migrate:latest && knex seed:run"
   },
   "dependencies": {
-    "sqlite3": "^5.0.8",
-    "express": "^4.18.1",
-    "knex": "^2.0.0"
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "@types/jest": "^27.5.0",
@@ -19,11 +19,19 @@
     "eslint": "^8.15.0",
     "jest": "^28.1.0",
     "knex-cleaner": "^1.3.1",
-    "nodemon": "^2.0.16",
+    "nodemon": "^2.0.22",
     "supertest": "^6.2.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Workintech/fsweb-s14g1-node-db-project-1.git"
-  }
+  },
+  "description": "- İlişkisel Veritabanları\r - Temel SQL Sorguları Yazma\r - Knex.js kullanarak Temel Sorgular Yazma",
+  "bugs": {
+    "url": "https://github.com/Workintech/fsweb-s14g1-node-db-project-1/issues"
+  },
+  "homepage": "https://github.com/Workintech/fsweb-s14g1-node-db-project-1#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
